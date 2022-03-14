@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"floor": 1,
+		"Street": "Dakker Road",
+		"Landmark": "Near abc super market",
+		"Area": "Woraiyur",
+		"CityState": "Trichy, TamilNadu",
+		"Pincode": 620003
+	},
+	{
+		"id": "bc65b2cb-2c93-4110-a898-680f5d27b7b9",
+		"Street": "zyx",
+		"Area": "abcd"
+	}
+]
