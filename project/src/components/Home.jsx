@@ -24,15 +24,15 @@ export const Home = () => {
 		console.log(id);
 	}
 	return (
-		<div>
-			<button onClick={handleClick}>Click To Post Data</button>
-			<div>
+		<div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column',alignItems:"center" }}>
+			<button onClick={handleClick} style={{padding:" 10px 20px", marginTop: "20px", width: "300px"}}>Click Here To Go To Create Data Page</button>
+			<div style={{display: 'flex', justifyContent: 'center', flexDirection: "column"}}>
 				{value.map((el) => {
 					return (
-						<div>
+						<div style={{border: '1px solid black', width: "200px", margin: "20px", padding: "20px", background: "black", color: "white"}}>
 							<div>{`Street: ${el.Street}`}</div>
 							<div>{`Area: ${el.Area}`}</div>
-							<button onClick ={handleDelete}>Delete</button>
+							<button style={{padding: "3px 20px"}} onClick ={handleDelete}>Delete</button>
 						</div>
 					);
 				})}

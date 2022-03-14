@@ -27,21 +27,23 @@ export const PostData = () => {
 
 	return (
 		<div>
-			<div>
+			<div style={{ margin: "30px" }}>
 				<input
+					style={{ padding: "10px 20px", margin: "10px" }}
 					type="text"
 					placeholder="enter street name"
 					value={street}
 					onChange={(e) => setStreet(e.currentTarget.value)}
 				/>
 				<input
+					style={{ padding: "10px 20px", margin: "10px" }}
 					type="text"
 					placeholder="enter area name"
 					value={area}
 					onChange={(e) => setArea(e.currentTarget.value)}
 				/>
 			</div>
-			<button onClick={handlePost}>Click To Post Data</button>
+			<button style={{padding: "10px 20px"}} onClick={handlePost}>Click To Post Data</button>
 		</div>
 	);
 };
